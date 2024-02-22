@@ -32,7 +32,7 @@ ServerEvents.recipes(e => {
         '   '
     ], {
         I: '#forge:ingots/steel',
-        B: 'minecraft:iron_ingot'
+        B: '#forge:gears/copper'
     }).id(`kjs:crafting/pipez/steel_fluid_pipe`)
 
     e.remove({output: 'pipez:fluid_pipe'})
