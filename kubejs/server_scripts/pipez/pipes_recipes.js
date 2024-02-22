@@ -1,6 +1,5 @@
 ServerEvents.recipes(e => {
-
-    //Pipes
+    //ITEM PIPE
     e.shaped('8x pipez:item_pipe', [
         '   ',
         'IDI',
@@ -12,8 +11,8 @@ ServerEvents.recipes(e => {
 
     e.remove({output: 'pipez:item_pipe'})
 
-
-
+    
+    //ENERGY PIPE
     e.shaped('8x pipez:energy_pipe', [
         '   ',
         'IRI',
@@ -25,6 +24,8 @@ ServerEvents.recipes(e => {
 
     e.remove({output: 'pipez:energy_pipe'})
 
+
+    //FLUID PIPE
     e.shaped('8x pipez:fluid_pipe', [
         '   ',
         'IBI',
@@ -36,8 +37,20 @@ ServerEvents.recipes(e => {
 
     e.remove({output: 'pipez:fluid_pipe'})
 
+    
+    //GAS PIPE
+    e.shaped('8x pipez:gas_pipe', [
+        '   ',
+        'SGS',
+        '   '
+    ], {
+        S: '#forge:ingots/silver',
+        G: '#forge:glass'
+    }).id(`kjs:crafting/pipez/silver_gas_pipe`)
 
+    e.remove({output: 'pipez:gas_pipe'})
 
+    
     //Upgrades
     e.shaped('pipez:improved_upgrade', [
         'GAG',
