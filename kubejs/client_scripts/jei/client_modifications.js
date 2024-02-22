@@ -6,8 +6,6 @@ JEIEvents.hideItems(e => {
       'mob_grinding_utils:solid_xp_block',
       'mob_grinding_utils:xpsolidifier',
       'mob_grinding_utils:jumbo_tank',
-      'mob_grinding_utils:ender_inhibitor_on',
-      'mob_grinding_utils:ender_inhibitor_off',
       'mob_grinding_utils:entity_conveyor',
       'mob_grinding_utils:dark_oak_stone',
       'mob_grinding_utils:dreadful_dirt',
@@ -36,7 +34,6 @@ JEIEvents.hideItems(e => {
       'mob_grinding_utils:gm_chicken_feed',
 
       //Pipez
-      'pipez:gas_pipe',
       'pipez:universal_pipe',
     ])
 })
