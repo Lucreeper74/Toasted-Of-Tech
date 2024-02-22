@@ -35,6 +35,11 @@ JEIEvents.hideItems(e => {
 
       //Pipez
       'pipez:universal_pipe',
+
+      //Industrial Foregoing
+      'industrialforegoing:iron_gear',
+      'industrialforegoing:gold_gear',
+      'industrialforegoing:diamond_gear'
     ])
 })
 
