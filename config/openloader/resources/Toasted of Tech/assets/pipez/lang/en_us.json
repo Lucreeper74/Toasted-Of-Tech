@@ -1,0 +1,5 @@
+{
+    "block.pipez.energy_pipe": "Invar Fluxduct",
+	"block.pipez.item_pipe": "Constantan Itemduct",
+	"block.pipez.fluid_pipe": "Fluid Pipe"
+}
