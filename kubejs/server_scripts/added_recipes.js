@@ -24,7 +24,7 @@ ServerEvents.recipes(e => {
         D: 'minecraft:diamond',
         C: 'create:crushing_wheel',
         R: 'minecraft:redstone_block',
-        I: 'minecraft:iron_block',
+        I: 'minecraft:iron_block'
     }).id(`kjs:crafting/mob_grinding_utils/saw`)
 
     e.blasting('biggerreactors:graphite_ingot', 'createmetallurgy:graphite')
