@@ -2,12 +2,11 @@ ServerEvents.recipes(e => {
 
     //Mobs Grinding Utils
     e.remove({id: 'mob_grinding_utils:recipe_spikes'})
-    e.remove({id: 'mob_grinding_utils:recipe_entity_convoyer'})
+    e.remove({output: 'mob_grinding_utils:recipe_entity_convoyer'})
     e.remove({id: 'mob_grinding_utils:recipe_jumbotank'})
     e.remove({id: 'mob_grinding_utils:recipe_jumbo_tank_reset'})
     e.remove({id: 'mob_grinding_utils:recipe_solidifier'})
     e.remove({id: 'mob_grinding_utils:recipe_fan'})
-    e.remove({id: 'mob_grinding_utils:ender_inhibitor_on'})
     e.remove({id: 'mob_grinding_utils:recipe_entity_spawner'})
     e.remove({id: 'mob_grinding_utils:recipe_cursed_feed'})
     e.remove({id: 'mob_grinding_utils:recipe_nutritious_feed'})
@@ -34,4 +33,9 @@ ServerEvents.recipes(e => {
 
     //Bigger Reactors
     e.remove({output: 'biggerreactors:graphite_ingot'})
+
+    //Industrial Forgoing
+    e.remove({output: 'industrialforegoing:iron_gear'})
+    e.remove({output: 'industrialforegoing:gold_gear'})
+    e.remove({output: 'industrialforegoing:diamond_gear'})
 })
