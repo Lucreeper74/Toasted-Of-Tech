@@ -2,7 +2,7 @@ ServerEvents.recipes(e => {
 
     //Mobs Grinding Utils
     e.remove({id: 'mob_grinding_utils:recipe_spikes'})
-    e.remove({output: 'mob_grinding_utils:recipe_entity_convoyer'})
+    e.remove({output: 'mob_grinding_utils:entity_conveyor'})
     e.remove({output: 'mob_grinding_utils:saw'})
     e.remove({id: 'mob_grinding_utils:recipe_jumbotank'})
     e.remove({id: 'mob_grinding_utils:recipe_jumbo_tank_reset'})
